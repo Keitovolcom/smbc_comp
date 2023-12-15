@@ -27,3 +27,13 @@ categorical featureの分岐はその変数の値がある値に該当すれば�
 
 思いついた仮説
 user_typeごとにnullちの総数に違いがあるんじゃない？
+
+まず最初の木はint_stewardを1.5で切っていた　⇒　3のデータ数が少ないので[1,2,3]で分けるとしたら1.2で分けたほうがより多くのデータを分けられるからだと思う
+
+
+categorical_data
+steward
+nan = -1
+1or2 = 0
+3or4 = 1
+4ormore = 2
