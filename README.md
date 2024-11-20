@@ -1,1 +1,1 @@
-# smbc_comp
+# smbc_comp　baseline.ipynがモデルの構築およびsubmitのコードになっています。使用したモデルはLightgbmです
